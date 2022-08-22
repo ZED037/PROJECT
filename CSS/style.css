@@ -31,7 +31,6 @@
 .nav_list{
     width: 50%;
     display: flex;
-
     align-items: center;
 }
 
@@ -71,7 +70,8 @@
     background-blend-mode: darken;
 }
 .first_section{
-    height: 100vh;
+    height: 120vh;
+    width: 201vh;
 }
 .box-main{
     display: flex;
@@ -229,4 +229,93 @@ color: red ;
     margin-top: 10px;
     margin-left: 20px;
 
+}
+
+.img_1{
+    width: 550px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    margin: 100px 100px 25px 200px;
+       
+}
+
+.img_2{
+    height: 550px;
+    width: 550px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    margin: 100px 100px 25px 200px;
+
+}
+
+.image{
+    background: rgba(0, 0, 0, 0.75) url(../Image/dna.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+}
+
+ .contact{
+    background-color: grey;
+    height: 112vh;
+    
+ }
+
+ .contact legend h1{
+    font-size: 33px;
+ }
+
+  .text_center{
+    text-align: center;
+ }
+
+.contact fieldset div label{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.contact fieldset div input{
+    width: 100%;
+    margin: 10px 0 30px 0;
+    padding: 7px;
+    font-size: 18px;
+    border: 2px solid #f6f5f4;
+    border-radius: 6px;
+
+}
+
+.contact fieldset div{
+    max-width: 345px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+
+.contact fieldset div input.we{
+    width: auto;
+    cursor: pointer;
+
+}
+.contact fieldset div span.rad{
+    padding: 0 20px 0 10px ;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.contact fieldset{
+    margin: 0 10px 0;
+}
+
+.contact fieldset div textarea{
+    border: 2px solid #f6f5f4;
+    border-radius: 6px;
+    width: 100%;
+    margin: 10px 0 30px 0;
+
+}
+.contact fieldset div input.btn_form{
+    width: auto;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
 }
