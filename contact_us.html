@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yujan Pharmacy</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+    <nav class="navigation background">
+        <ul class="nav_list">
+            <div class="logo">
+                <img src="Image/logo.png" alt="Yujan Pharmacy" />
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+
+        <div class="right_nav">
+            <input type="text" name="Search" id="search_bar" />
+            <button class="btn btn-s">Search</button>
+        </div>
+    </nav>
+
+    <section class="background first_section">
+        <div class="box-main">
+            <div class="first_half">
+                <p class="large_text">Fall in love with taking care of your body</p>
+                <br>
+                <p class="small_text">
+            
+                    The concept of total wellness recognizes that our every thought,
+                    word, and behavior affects our greater health and well-being. And
+                    we, in turn, are affected not only emotionally but also physically
+                    and spiritually.
+                </p>
+                <br />
+                <div class="buttons">
+                    <button class="btn">Hello ji</button>
+                    <button class="btn">Kaisey ho</button>
+                </div>
+            </div>
+            <div class="second_half">
+                <img src="Image/logo.png" alt="Medicine" />
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <form method ="POST" name="register" enctype="multipart/form-data"></form>
+        <fieldset>
+        <legend class="text_center">
+            <h1 class="section_tag1">Contact Us</h1>
+            </legend>
+            <div>
+                <label>Full Name</label><br/>
+                <input type="text" name="fullname" placeholder="Full Name" required/><br/>
+                <label>Address</label><br/>
+                <input type="text" name="address" placeholder="Address" required/><br/>
+                <label>Phone Number</label><br/>
+                <input type="number" name="phone_num" placeholder="Phone Number" required/><br/>
+                <label>Email</label><br/>
+                <input type="email" name="email" placeholder="Email" required/><br/>
+                <label>DOB</label><br/>
+                <input type="date" name="dob" placeholder="DOB" required/><br/>
+                <label>Gender </label><br/>
+              <input type="radio" name="gender" class="we" value="M" checked/><span class="rad">Male</span>
+            <input type="radio" name="gender" class="we" value="F"/><span class="rad">Female</span> 
+               <input type="radio" name="gender" class="we" value="O"/><span class="rad">Others</span><br/>
+               <label>Prescription Report</label><br/>
+               <input type="file" name="photo"/><br/>
+               <label>Message</label>
+                <textarea rows="7" cols="50" name="message"></textarea><br/>
+                <input type="submit" name="submit" class="btn btn_form" value="Register"/>
+                <input type="reset" name="reset" class="btn btn_form" value="Cancel"/><br/>
+                </div>
+        </fieldset>
+        </form> 
+    </section>
+
+    <section class="follow">
+        <div class="follow1">
+        <p class="section_tag1">Follow Us on : </p>
+        <div id = "social">
+            <ul>
+                <li class="fla"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li id="moco"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li class="kla"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="kla"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="follow1">       
+         <p class="section_tag1">Contact us on :</p>
+    
+        <div id="contact">
+        <ul>
+            <li><i class="fa-solid fa-phone"></i> 9857026900</li>
+            <li><i class="fa-solid fa-envelope"></i><a href="#" id="mail"> dhukush@gmail.com</a></li>
+        </ul>
+        </div>
+        </div>
+    </section>
+    <footer class="background">
+        <p class="text_footer">
+        Copyright &copy; 2029 &nbsp;- &nbsp;www.yujanpharmacy.com &nbsp;- &nbsp;All Rights Reserved</p>
+    </footer>
