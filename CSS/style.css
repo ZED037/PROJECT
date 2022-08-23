@@ -71,7 +71,7 @@
 }
 .first_section{
     height: 120vh;
-    width: 201vh;
+    width: 201 vh;
 }
 .box-main{
     display: flex;
@@ -261,7 +261,7 @@ color: red ;
     
  }
 
- .contact legend h1{
+ .contact legend p{
     font-size: 33px;
  }
 
@@ -311,6 +311,8 @@ color: red ;
     border-radius: 6px;
     width: 100%;
     margin: 10px 0 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
 
 }
 .contact fieldset div input.btn_form{
@@ -318,4 +320,93 @@ color: red ;
     margin-right: 20px;
     padding: 10px;
     text-align: center;
+}
+
+.contact fieldset div button span{
+    font-family: 'Ubuntu', sans-serif;
+}
+.doctor{
+    background-color: grey;
+}
+.doctor div{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.doctor div img{
+    width: 185px;
+    height: 169px;
+    border: 2px solid black;
+    border-radius: 195px;
+}
+
+.doc1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.doc2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+    font-size: 20px;
+}
+
+
+.doctor .c1{
+    display: flex;
+    text-align: center;
+    margin-left: 350px;
+    color: whitesmoke;
+}
+
+
+.doctor span.s1{
+    padding: 50px 100px 0 100px;
+}
+
+.doctor span.s1 p{
+    padding-bottom: 50px;
+}
+
+.doc3 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 25px;
+    background-color: grey;
+    
+
+}
+
+.doc3 h2{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.doc3 li{
+    text-align: justify;
+    margin: 50px 0 0 600px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: aliceblue;
+
+}
+.doc3 ul{
+    margin-bottom: 20px;
+}
+
+.doc3 p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.doc3 div{
+    border: 2px solid aliceblue;
+    border-radius: 50px;
 }
